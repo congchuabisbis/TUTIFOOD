@@ -1,0 +1,170 @@
+.allbutton {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    font-family: "Times New Roman", Times, serif;
+    margin-bottom: 50px;
+    font-size: 1.2rem;
+}
+
+.buttonhoantat {
+    text-align: center;
+    /* Căn giữa nút */
+    margin-right: 70px;
+    text-decoration: none;
+}
+
+.button-hoantat {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    text-align: none;
+    border: 1px solid red;
+    transition: transform 0.3s;
+}
+
+.button-hoantat:hover {
+    background-color: red;
+    color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transform: scale(1.1);
+}
+
+.continue_button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border: 1px solid red;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 20px;
+    transition: transform 0.3s;
+}
+
+.continue_button:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transform: scale(1.1);
+}
+
+.checkout-title {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 2rem;
+    margin-top: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.form-group5 {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    position: relative !important;
+}
+
+/* CSS cho label */
+.form-group5 label2 {
+    margin-bottom: 5px;
+}
+
+/* CSS cho icon trước input */
+.form-group5 i {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+    font-size: 1.4rem;
+    color: black;
+}
+
+/* CSS cho input */
+.form-group5 input {
+    width: 100%;
+    padding: 10px 10px 10px 40px !important;
+    border: 1px solid #ccc;
+    font-size: 0.9rem;
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.form-group5 select {
+    width: 100%;
+    padding: 10px 10px 10px 40px !important;
+    border: 1px solid #ccc;
+    font-size: 0.9rem;
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    height: 45px;
+}
+
+.form-group5 input:focus+i {
+    opacity: 0;
+}
+
+.city-options {
+    list-style: none;
+    padding: 0;
+    max-height: 200px;
+    /* Đặt kích thước tối đa cho danh sách */
+    overflow-y: auto;
+    /* Tạo thanh cuộn khi danh sách quá dài */
+}
+
+.city-options li {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.city-options li:hover {
+    background-color: #f0f0f0;
+}
+
+/* CSS cho thông báo lỗi */
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 50px;
+    position: absolute;
+}
+
+/* CSS cho phần nhập liệu có lỗi */
+.input-error {
+    border: 1px solid red;
+}
+
+/* Trong file CSS của bạn */
+.message-order {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(228, 92, 92);
+    color: white;
+    border: 1px solid #d6e9c6;
+    padding: 20px 28px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.2rem;
+}
+
+.message-order i {
+    margin-right: 10px;
+}
+
+.error-nocart {
+    background-color: #ffebee;
+    /* Nền màu đỏ nhạt */
+    border: 1px solid #e57373;
+    /* Viền màu đỏ đậm */
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}

@@ -1,0 +1,130 @@
+.search__widge,
+.sorting__widget select {
+  padding: 7px 50px;
+  border: 2px solid #fde4e4;
+  border-radius: 5px;
+}
+
+.search__widge input:focus {
+  outline: none;
+}
+.input-group {
+  position: relative;
+}
+
+.search__widget.custom.input {
+  padding-left: 30px; /* Điều chỉnh khoảng cách từ bên trái */
+}
+
+.custom-icon {
+  position: absolute;
+  right: 345px; /* Điều chỉnh vị trí biểu tượng tìm kiếm theo ý muốn */
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent; /* Đặt nền biểu tượng là trong suốt */
+  border: none;
+  cursor: pointer; /* Hiển thị con trỏ tay khi di chuột qua biểu tượng */
+}
+
+/* CSS cho thanh liệt kê */
+.sorting__widget {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.sorting__widget button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 5px 10px;
+  font-size: 14px;
+  margin-right: 10px;
+  color: #333;
+}
+
+.sorting__widget button.active {
+  color: black;
+  border-radius: 5px;
+}
+
+/* CSS cho sản phẩm */
+.product-card {
+  padding: 10px;
+  margin: 10px 0;
+  transition: transform 0.2s;
+}
+
+.product-card:hover {
+  transform: scale(1.03);
+}
+
+.product-card img {
+  max-width: 100%;
+}
+
+/* CSS cho phân trang */
+.paginationBttns {
+  width: 80%;
+  height: 40px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 1rem;
+  list-style: none;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.paginationBttns li {
+  margin: 0 5px;
+}
+.paginationBttns a {
+  margin: 2px;
+  padding: 4px 13px;
+  background-color: #212245;
+  color: #fff;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  text-decoration: none;
+}
+.paginationBttns a:hover {
+  background: #ca3636;
+}
+
+.paginationBttns .selected {
+  color: #fff;
+}
+/* CSS cho loại thức ăn */
+.menu-category {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.category-item {
+  text-align: center;
+}
+
+/* CSS cho hình ảnh loại thức ăn */
+.category-image {
+  display: block;
+  margin: 0 auto;
+  max-width: 80px; /* Điều chỉnh kích thước hình ảnh theo nhu cầu */
+  max-height: 80px; /* Điều chỉnh kích thước hình ảnh theo nhu cầu */
+  transition: 0.4s;
+}
+.category-image:hover {
+  transform: scale(1.2);
+}
+.category-item h2 {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #333;
+}

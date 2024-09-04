@@ -1,0 +1,111 @@
+
+.slick-prev {
+    left: -10px !important;
+    z-index: 1000 !important;
+    height: 48px !important;
+    width: 44px !important; 
+
+    background: #fff !important;
+    border: 2px solid #d7d7d7 !important;
+}
+
+.slick-prev:hover {
+    background: #eceaea !important;
+}
+
+.slick-prev:before, .slick-next:before {
+    font-family: FontAwesome !important;
+    color: red !important;
+}
+
+.slick-next {
+    right: -10px !important;
+    z-index: 1000 !important;
+    height: 48px !important;
+    width: 44px !important; 
+
+    background: #fff !important;
+    border: 2px solid #d7d7d7 !important;
+}
+
+.slick-next:hover {
+    background: #eceaea !important;
+}
+
+.slick-disabled {
+    display: none !important;
+}
+
+.slider-sale{
+    height: 400px;
+    background: #f5f5f5;
+}
+.slider-sale-body .slider-sale-customize {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.slider-sale-container {
+    margin: 0 190px;
+    display: flex;
+    flex-direction: column;
+}
+.slider-sale-header {
+    height: 60px;
+    margin-bottom: 30px;
+    padding-top: 30px;
+}
+.slider-sale-title {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.slider-sale-btn {
+    float: right;
+    padding: 10px 10px;
+    border: none;
+    outline: none;
+    display: block;
+    background: #ebebeb;
+    color: black;
+    cursor: pointer;
+    text-transform: uppercase;
+    &:hover {
+        color: #fff;
+        background: #E31837;
+    }
+}
+
+/* css text */
+
+.list-advantage ul {
+    list-style: none;
+    color: green;
+    
+}
+  
+.advantage:before {
+    content: '✓';
+}
+
+.advantage span b {
+    color: black;
+}
+
+.advantage span {
+    color: black;
+}
+
+.advantage {
+    padding: 5px 0px;
+}
+.list-advantage {
+    margin: 50px 0px;
+}
+.question {
+    margin: 50px 0px;
+}
+
+.about-us {
+    margin-top: 50px;
+}

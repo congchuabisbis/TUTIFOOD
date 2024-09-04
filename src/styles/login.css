@@ -1,0 +1,63 @@
+.App {
+    text-align: center;
+    display: flex;
+    background-image: url('https://images.unsplash.com/photo-1644032982093-b4a7b38935ea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
+    background-size: cover;
+    min-height: 100vh;
+    min-width: 200vh;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.auth-form-container,
+.login-form,
+.register-form {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 600px) {
+    .auth-form-container {
+        padding: 5rem;
+        border: 1px solid white;
+        border-radius: 20px;
+        margin: 0.5rem;
+        backdrop-filter: blur(40px);
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, .3);
+    }
+}
+
+label {
+    text-align: left;
+    padding: 0.5rem 0;
+}
+
+input {
+    margin: 0.5rem 0;
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+}
+
+
+.custom-button {
+    border: none;
+    background-color: red;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    margin-top: 20px;
+}
+
+.link-btn {
+    background: none;
+    color: white;
+    text-decoration: underline;
+}
+.link-login, 
+.link-register{
+    color: white;
+    border-radius: 10px ;
+}

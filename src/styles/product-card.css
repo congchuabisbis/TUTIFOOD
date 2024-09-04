@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Playpen+Sans:wght@700&family=Roboto+Mono:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Open+Sans:wght@500&family=Playpen+Sans:wght@700&family=Roboto+Mono:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Lato:wght@900&family=Open+Sans:wght@500&family=Playpen+Sans:wght@700&family=Roboto+Mono:wght@600&display=swap");
+.product__item {
+  text-align: center;
+  padding: 30px;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  height: 100%;
+  border-radius: 5px;
+}
+
+.product__img {
+  margin-bottom: 20px;
+  transition: 0.4s;
+}
+.product__img:hover {
+  transform: scale(1.2);
+}
+.product__content h5 a {
+  color: black;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+.product__content h5 {
+  margin-bottom: 30px;
+  text-align: left;
+  margin-top: 30px;
+  margin-bottom: -1px;
+}
+.product__price {
+  font-size: 1.2rem;
+  color: black;
+  font-weight: 500;
+}
+.addTOCart__btn {
+  border: none;
+  padding: 5px 10px;
+  background-color: rgb(237, 75, 75);
+  border-radius: 5px;
+  font-size: 0.9rem;
+}
+.addTOCart__btn i {
+  color: white;
+}
+.product__mota {
+  font-size: 1rem;
+  text-align: left;
+  display: flex; /* Sử dụng Flexbox */
+  justify-content: flex-start; /* Đặt vị trí căn lề trái */
+  align-items: center; /* Đặt vị trí căn giữa theo chiều dọc */
+  color: gray;
+  height: 60px;
+}

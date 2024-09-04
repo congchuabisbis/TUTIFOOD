@@ -1,0 +1,157 @@
+.cart-list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.cart-list .list-group-item {
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    width: 600px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 160px;
+}
+
+/* Thiết lập độ rộng tùy thuộc vào thiết kế cụ thể */
+.cart-list img {
+    width: 20%;
+    height: 50%;
+    margin-bottom: 20px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.cart-list p {
+    margin-left: 50px;
+    font-family: "Times New Roman", Times, serif !important;
+    font-size: 1.1rem !important;
+}
+
+.cart-list h6 {
+    margin-left: 50px;
+    font-family: "Times New Roman", Times, serif !important;
+    font-size: 1.2rem;
+}
+
+.cart-list span {
+    font-family: "Times New Roman", Times, serif !important;
+    font-size: 1.1rem !important;
+}
+
+.cart-list .delete__btn {
+    color: black;
+    margin-left: 150px;
+    margin-top: -50px;
+    cursor: pointer;
+}
+
+.cart-title {
+    font-size: 2rem;
+    margin-top: 50px;
+    text-align: left;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.total {
+    font-size: 18px;
+    margin-top: 50px;
+    margin-left: 500px;
+}
+
+.cart-list .increase__decrease-btn {
+    margin-left: 50px !important;
+    width: 100px;
+}
+
+.order-summary {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    line-height: 30px;
+    font-family: "Times New Roman", Times, serif;
+    margin-bottom: 70px;
+}
+
+.summary-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* Chia thành 2 cột */
+    gap: 300px;
+    /* Khoảng cách giữa các phần tử con */
+}
+
+.h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.order-summary p {
+    font-size: 1.2rem;
+    margin: 5px 0;
+}
+
+.order-summary p:last-child {
+    font-weight: bold;
+}
+
+.order-summary p.discount {
+    color: #e74c3c;
+}
+
+.order-summary p.promo-code {
+    margin-top: 10px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    font-family: "Times New Roman", Times, serif;
+    margin-bottom: 50px;
+    font-size: 1.2rem;
+}
+
+.buttoncheckout {
+    margin-right: 10px;
+    background-color: black;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: transform 0.3s;
+}
+
+.checkout-button {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+.continue-button {
+    /* Thêm kiểu dáng CSS cho nút "Tiếp tục mua sắm" */
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 70px;
+    transition: transform 0.3s;
+}
+
+.continue-button:hover {
+    background-color: red;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transform: scale(1.1);
+}
+
+.buttoncheckout:hover {
+    background-color: red;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transform: scale(1.1);
+}

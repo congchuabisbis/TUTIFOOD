@@ -1,0 +1,118 @@
+.footer{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background-color: #e31837;
+}
+
+.footer__logo img{
+    width: 150%;
+    height: 100%;
+    margin-bottom: 5px;
+    margin-left: -50px;
+    margin-top: -1px;
+}
+
+.footer__logo p{
+    font-size: 0.9rem;
+    color: white;
+    line-height: 28px;
+}
+
+.delivery__time-item {
+    background: transparent !important  ;
+}
+.delivery__time-item p{
+    font-weight: 400;
+}
+.delivery__time-item span{
+    font-weight: 600;
+    font-size: 1rem;
+    color: white;
+}
+.footer__tittle{
+    font-size: 1.1rem;
+    color: white;
+    font-weight: 600;
+}
+.delivery__time-item p{
+    color: white;
+}
+.delivery__time-item1{
+    background: transparent !important;
+}
+.delivery__time-item1 p{
+    font-weight: 400;
+    color: white;
+}
+.bold{
+    font-weight: 600;
+    color: white;
+}
+.delivery__time-item2 {
+    background-color: transparent !important;
+    color: white;
+}
+.delivery__time-item2 a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+}
+.delivery__time-item2 a:hover{
+    color: white;
+}
+.newsletter input{
+    background: transparent;
+    border: none;
+    outline: none;
+
+}
+.newsletter{
+    padding: 7px 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.newsletter input::placeholder{
+    color: black;
+}
+.newsletter input:focus{
+    outline: none;
+}
+.newsletter span{
+    background-color: black;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+.newsletter span i{
+    color: white;
+}
+.footer__tittle p{
+    font-weight: 400;
+}
+
+.crights{
+    margin-left: 100px;
+    color: black;
+    font-weight: 400;
+    font-size: large;
+}
+.social__links span i{
+    padding: 8px;
+    color: black;
+    border-radius: 60%;
+    background-color: white;
+}
+
+.social__links a{
+    text-decoration: none;
+    font-weight: 500;
+    
+}
+.social__links p{
+    color: black;
+    font-weight: 400;
+    font-size: large;
+}
